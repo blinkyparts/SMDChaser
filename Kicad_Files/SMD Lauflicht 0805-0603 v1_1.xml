@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/taxxizz/Dokumente/KICad/Übungen/SMD Lauflicht 0805-0603-aktuell v1.1/SMD Lauflicht 0805-0603  v1.1/SMD Lauflicht 0805-0603 v1_1.sch</source>
+    <date>Sa 01 Mai 2021 11:46:56 CEST</date>
+    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SMD-Lauflicht</title>
+        <company>Binary Kitchen e.V.</company>
+        <rev>V1.0</rev>
+        <date>2021-04-24</date>
+        <source>SMD Lauflicht 0805-0603 v1_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>4017</value>
+      <footprint>Binary_Kitchen:SOP-16_4.4x10.4mm_P1.27mm_simple_drawing</footprint>
+      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf</datasheet>
+      <libsource lib="4xxx" part="4017" description="Johnson Counter ( 10 outputs )"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE4528B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE454FE</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPDT_x2</value>
+      <footprint>Binary_Kitchen:smd_switch_slide</footprint>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE7072A</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>CR2023</value>
+      <footprint>Battery:BatteryHolder_Keystone_1060_1x2032</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE72A56</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60869537</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AC696E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AEAFAB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AEAFB5</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AFDC5F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AFDC69</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AFDC73</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AFDC7D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B07F67</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B07F71</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B07F7B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B07F85</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B07F8F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B07F99</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B07FA3</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B07FAD</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B11091</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B1109B</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B110A5</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B110AF</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60890141</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60890177</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60890181</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089018B</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60890195</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089019F</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608901A9</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608901B3</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608901BD</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608901C7</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608901D1</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608901DB</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608901E5</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608901EF</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608901F9</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60890203</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089020D</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60890217</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>0805 LED Red</value>
+      <footprint>Binary_Kitchen:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_simple_drawing</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60890221</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>82 Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089022B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NE555</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Timer" part="NE555" description="Precision Timers, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE42C40</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100k Ohm</value>
+      <footprint>Binary_Kitchen:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60983F98</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100k Ohm</value>
+      <footprint>Binary_Kitchen:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609902FA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n F</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609A868E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>4017</value>
+      <footprint>Binary_Kitchen:SOP-16_4.4x10.4mm_P1.27mm_simple_drawing</footprint>
+      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf</datasheet>
+      <libsource lib="4xxx" part="4017" description="Johnson Counter ( 10 outputs )"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60854B84</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609E7D0F</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k Ohm</value>
+      <footprint>Binary_Kitchen:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A16363</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC850</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <libsource lib="Transistor_BJT" part="BC850" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A4AD71</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC850</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <libsource lib="Transistor_BJT" part="BC850" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A5E8DD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx" part="4017">
+      <description>Johnson Counter ( 10 outputs )</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4017</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q5" type="output"/>
+        <pin num="2" name="Q1" type="output"/>
+        <pin num="3" name="Q0" type="output"/>
+        <pin num="4" name="Q2" type="output"/>
+        <pin num="5" name="Q6" type="output"/>
+        <pin num="6" name="Q7" type="output"/>
+        <pin num="7" name="Q3" type="output"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="Q8" type="output"/>
+        <pin num="10" name="Q4" type="output"/>
+        <pin num="11" name="Q9" type="output"/>
+        <pin num="12" name="Cout" type="output"/>
+        <pin num="13" name="CKEN" type="input"/>
+        <pin num="14" name="CLK" type="input"/>
+        <pin num="15" name="Reset" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="LM555">
+      <aliases>
+        <alias>ICM7555</alias>
+        <alias>LMC555xM</alias>
+        <alias>LMC555xMM</alias>
+        <alias>LMC555xN</alias>
+        <alias>MC1455</alias>
+        <alias>TLC555CD</alias>
+        <alias>TLC555CP</alias>
+        <alias>TLC555CPS</alias>
+        <alias>NA555</alias>
+        <alias>NE555</alias>
+        <alias>SE555</alias>
+        <alias>SA555</alias>
+      </aliases>
+      <description>Timer, DIP-8/SOIC-8/SSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC817.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx">
+      <uri>/usr/share/kicad/library/4xxx.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/usr/share/kicad/library/Timer.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U2" pin="13"/>
+      <node ref="U3" pin="8"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="4" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="5" name="Net-(D16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D18-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="12" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad12)">
+      <node ref="U3" pin="14"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="15" name="Net-(Q2-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R24-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R23-Pad2)">
+      <node ref="U3" pin="3"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="18" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="19" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="20" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="22" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="23" name="Net-(R16-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="25" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="26" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="27" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="28" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="29" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="30" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="32" name="+3V3">
+      <node ref="SW1" pin="2"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R17-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R19-Pad1)">
+      <node ref="U2" pin="9"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="36" name="Net-(R18-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="37" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="38" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="39" name="VS">
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R21" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="40" name="Net-(D11-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D18" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="43" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="44" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="45" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+  </nets>
+</export>

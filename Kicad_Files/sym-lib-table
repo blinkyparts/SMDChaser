@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SMD-Lauflicht-20x-rescue)(type Legacy)(uri "${KIPRJMOD}/SMD Lauflicht 20x-rescue.lib")(options "")(descr ""))
+)
