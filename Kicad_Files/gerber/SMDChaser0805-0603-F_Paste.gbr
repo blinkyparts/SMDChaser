@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.9)*
-G04 #@! TF.CreationDate,2022-11-29T20:17:37+01:00*
-G04 #@! TF.ProjectId,SMD Lauflicht 0805-0603 v1_1,534d4420-4c61-4756-966c-696368742030,rev?*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,9.0.1*
+G04 #@! TF.CreationDate,2025-04-09T17:44:43+02:00*
+G04 #@! TF.ProjectId,SMDChaser0805-0603,534d4443-6861-4736-9572-303830352d30,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.9)) date 2022-11-29 20:17:37*
+G04 Created by KiCad (PCBNEW 9.0.1) date 2025-04-09 17:44:43*
 %MOMM*%
 %LPD*%
 G01*
